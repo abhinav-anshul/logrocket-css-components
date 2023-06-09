@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+.btn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.primary {
+  background-color: white;
+  color: black;
+}
+.primary:hover {
+  opacity: 0.95;
+}
+.secondary {
+  background-color: #0f172a;
+}
+.secondary:hover {
+  opacity: 0.95;
+}
+
+.destructive {
+  background-color: #811d1d;
+}
+.destructive:hover {
+  opacity: 0.95;
+}
+.outline {
+  background-color: transparent;
+  border: 1px solid gray;
+}
+.outline:hover {
+  opacity: 0.95;
+}
+.ghost {
+  background-color: black;
+}
+.ghost:hover {
+  opacity: 0.95;
+  background-color: #1d283a;
+}
